@@ -1,7 +1,12 @@
 import React from "react";
+import DogDirectory from "../components/DogDirectory";
 
 const Index = () => {
-  return <div>{/* Your app content goes here */}</div>;
+  return (
+    <div>
+      <DogDirectory />
+    </div>
+  );
 };
 
 export default Index;
